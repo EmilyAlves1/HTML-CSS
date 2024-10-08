@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela grande</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tbody > tr:nth-child(odd
+    ){ /** efeito zebrado**/
+            background-color: lightgrey;
+
+        }
+
+        table{
+            width: 500px;
+            border: 1px solid;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: grey;
+        }
+
+        td, th{
+            border: 1px solid;
+            padding: 10px;
+        }
+        thead{
+            background-color: grey;
+            color: white;
+        }
+
+        tfoot{
+            background-color: grey;
+            color: white;
+            
+        }
+
+        caption{
+            background-color: lightgrey;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <!-- 
+    anatomia para tabelas grandes
+            caption
+
+            THEAD
+                TR, TD, TH
+
+            TBODY
+                TR, TD, TH
+
+            TFOOT
+                TR, TD, TH
+     
+    -->
+
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 100px;">população</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>45 919 045</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td>00000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>000000</td>
+            </tr>
+    
+
+        </tbody>
+       <tfoot>
+        <tr>
+            <th scope="row">Total de habitantes</th>
+            <td>000</td>
+        </tr>
+
+       </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis, aliquid sunt unde id expedita reiciendis temporibus in porro nulla exercitationem facere ipsum. Repudiandae beatae voluptas suscipit, optio odit cupiditate!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, sequi. Eligendi nihil mollitia repellendus sit recusandae nam sint debitis fugiat distinctio laudantium, impedit tempore necessitatibus eum sunt inventore quidem dignissimos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptatibus, provident deserunt recusandae dolores, earum atque nobis odit necessitatibus, ab repellendus vel iusto amet commodi porro! Obcaecati fugit nostrum aperiam!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cumque ratione voluptates repellat ipsam enim, rerum ab laboriosam id sapiente, velit pariatur quae iure nostrum consequatur aut est corrupti mollitia.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit nulla, ipsum at possimus omnis error aliquam nemo quos ipsam molestias veniam natus amet totam quibusdam, sint animi facere voluptatem.
+    </p>
+</body>
+</html>
