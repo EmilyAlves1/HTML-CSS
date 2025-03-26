@@ -64,6 +64,10 @@
             }
         }
 
+        window.addEventListener("load", mudoutamanho);
+        window.addEventListener("resize", mudoutamanho)
+        window.addEventListener("orientationchange", mudoutamanho);
+
         function clickMenu() {
             
             var itens = document.getElementById("itens");
