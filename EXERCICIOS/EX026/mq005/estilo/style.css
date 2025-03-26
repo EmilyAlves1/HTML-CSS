@@ -9,6 +9,8 @@
 }
 
 body, html {
+    width: 100vw;
+    height: 100vh;
     background-color: lightgrey;
 }
 
@@ -77,5 +79,8 @@ article > p{
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
+
 }
+
+
 
